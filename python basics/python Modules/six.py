@@ -12,7 +12,7 @@ uniform()
 # for x in range(10):
 #     print(randint(10,100))
 
-
+#randint generates the random integer value between given number
 
 from random import randint
 for x in range(10):
