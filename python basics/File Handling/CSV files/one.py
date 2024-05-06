@@ -13,3 +13,4 @@ user_data=csv.reader(fp)
 users=list(user_data)
 print(users)
 
+fp.close()
