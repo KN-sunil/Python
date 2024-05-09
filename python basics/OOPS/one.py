@@ -1,6 +1,5 @@
 class Account:
-    def open_acc(self):                      #self is pointer pointing to current object used to acces the members inside class
-                                                  #for outside of the class we object
+    def open_acc(self):                      #self is pointer pointing to current object used to acces the members inside classs  #for outside of the class we object
         print("account opened")
     def deposit_amount(self):
         print("amount deposited")
