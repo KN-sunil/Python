@@ -10,7 +10,7 @@ class Account(Bank):
         self.acc_addr=addr
 
     def cal_bal(self):
-        return 0
+        pass
     
     def set_mobile(self,mobile):
         self.acc_mobile=mobile
