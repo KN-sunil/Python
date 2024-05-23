@@ -10,7 +10,7 @@ try:
     empdata=mycursor.fetchall()
 
     for emp in empdata:
-        print(emp)
+        print("Employee Id:", emp[0],"Employee Name:",emp[1],"and salary:", emp[2])
 
 
 except mysql.connector.DatabaseError as err:
@@ -18,7 +18,7 @@ except mysql.connector.DatabaseError as err:
         print("unable to connect database")
 
 finally:
-   
+    mycursor.close()
     dbcon.close()
 
 
